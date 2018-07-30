@@ -1,0 +1,394 @@
+html, body{
+	background: white;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.img-f{
+	box-shadow: 2px 5px 14px rgb(107, 107, 107);
+}
+
+.navbar-container{
+	width: 800px;
+	display: flex;
+}
+
+.navbar-nav{
+	-webkit-flex-grow: 1;
+	        flex-grow: 1;
+	    -webkit-justify-content: center;
+	            justify-content: center;
+}
+
+.about-us-bg{
+	background-image: url('header1.png');
+	width: 100%;
+	height: 450px;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	  background-position: center;
+	  
+	  background-repeat: no-repeat;
+}
+
+.download-icon{
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.about-us-nav{
+	background: rgba(10, 61, 98,0.8);
+	width: 570px;
+	height: 70px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	margin-top: 80px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+.about-us-nav li a, .about-us-nav li{
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+
+.nav-link{
+	font-weight: 700;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+	color: #82ccdd;		
+}
+
+.about-us-nav .navbar-brand{
+	margin-right: 0px;
+}
+
+.about-us-nav ul{
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	    -webkit-flex-grow: 1;
+	            flex-grow: 1;
+	            -webkit-justify-content: center;
+	                    justify-content: center;
+}
+
+.title{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.navbar li{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.lid{
+	padding-right: 35px !important;
+}
+
+.section1 select{
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.category-download{
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.category-download ul, .category-items ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+section{
+	width: 100%;
+}
+
+.category-download ul li{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.category-items{
+	text-align: center;
+}
+
+.category-items li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.category-group{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.disclaimer{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.about-us{
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #fff;
+}
+
+/* .mt-80{} */
+
+.about-us-footer{
+	box-shadow: 0px -10px 15px 0px rgba(0,0,0,0.75);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	    background-position: center;
+	background-image: url('footer.jpg');
+}
+
+.about-us h2{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.section-download{
+	padding-top: 30px;
+	padding-bottom: 30px;	
+	background: black;
+	color: #FFF;
+}
+
+.section-download p{
+	padding-top: 10px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.nav-btn{
+	background: red;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	width: 80px;
+	text-align: center;
+	background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.section1{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background: #FFF;
+}
+
+.banner{
+	padding: 0;
+}
+
+.section2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #f3f3f3;
+}
+
+.section-width{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+section .btn{
+	margin-top: 15px;
+}
+
+.section3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/* background: white; */
+	background: url("Header.png")
+}
+
+.section3 .row{
+	-webkit-flex-direction: row-reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+}
+
+.section-text{
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.btn{
+	margin: 0;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+}
+
+.main-section{
+	padding-top: 50px;
+	background: black;
+	padding-bottom: 50px;
+	color: #FFF;
+	text-align: center;
+}
+
+.main-section h5{
+	margin-bottom: 30px;
+}
+
+.main-section .row{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.main-section .row img{
+	margin-bottom: 10px;
+}
+
+.main-section .row h6{
+	width: 250px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+footer{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-image: url('footer.jpg');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+color: #FFF;
+}
+
+footer img{
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+footer ul{
+	display: flex;
+	list-style-type: none;
+	width: 300px;
+	margin: 0 auto;
+	padding: 0;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin-bottom: 50px;
+}
+
+footer ul li{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer ul li a{
+	color: #FFF;
+}
+
+footer ul li a:hover{
+	color: lightblue;
+}
+
+footer p{
+	margin-bottom: 0;
+}
+
+.footer-border{
+	border-right: 1px solid white;
+}
+
+.section-text h3{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.section-download .container{
+	max-width: 1800px;
+}
+
+.category-download .container, .category-items .container{
+	max-width: 1500px;
+}
+
+@media (max-width: 767px) {
+	html, body{
+		font-size: 12px;
+	}
+	.lid{
+		padding-right: 10px !important;
+	}
+
+	.about-us-nav{
+		width: 350px;
+	}
+
+	.about-us-nav .navbar-hide{
+		display: none;
+	}
+
+	.main-section .row{
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	.main-section .col{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}		
+
+	.section2 .row, .section3 .row{
+		-webkit-flex-direction: column-reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+	}
+
+	.section2 img{
+		margin: 0 auto;
+	}
+
+	.section-text{
+		margin-top: 20px;
+		text-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+	}
+
+	.section-img{
+		text-align: center;
+	}
+
+	.section-download .col-sm-12{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
