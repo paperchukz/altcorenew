@@ -1,17 +1,44 @@
 html, body{
 	background: white;
 	font-size: 14px;
-	font-family: 'Roboto', sans-serif;
-	
+	font-family: 'Noto Sans', sans-serif;
 }
 
-.img-f{
-	box-shadow: 2px 5px 14px rgb(107, 107, 107);
+/*nav, .banner,
+.index-page .section1 h2,
+.index-page .section1 h5,
+.index-page .section2 .section-text,
+.index-page .section2 .section-img,
+.index-page .section3 .section-text,
+.index-page .section3 .section-img{
+	visibility: hidden;
 }
+
+.index-page .section1 h2, .index-page .section1 h5{
+	position: relative;
+	top: 100px;
+}
+
+.index-page .section2 .section-text,
+.index-page .section3 .section-img{
+	position: relative;
+	left: 100px;
+}
+
+.index-page .section2 .section-img,
+.index-page .section3 .section-text{
+	position: relative;
+	right: 100px;
+}*/
 
 .navbar-container{
-	width: 800px;
+	width: 900px;
 	display: flex;
+}
+
+.bold-uppercase{
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .navbar-nav{
@@ -22,15 +49,13 @@ html, body{
 }
 
 .about-us-bg{
-	background-image: url('header1.png');
 	width: 100%;
 	height: 450px;
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
 	  background-position: center;
-	  
-	  background-repeat: no-repeat;
+	  background-image: url('header2.png');
 }
 
 .download-icon{
@@ -40,7 +65,7 @@ html, body{
 
 .about-us-nav{
 	background: rgba(10, 61, 98,0.8);
-	width: 570px;
+	width: 500px;
 	height: 70px;
 	position: absolute;
 	top: 0;
@@ -87,12 +112,8 @@ html, body{
 }
 
 .navbar li{
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.lid{
-	padding-right: 35px !important;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .section1 select{
@@ -141,6 +162,7 @@ section{
 	text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
+	font-weight: 700;
 }
 
 .about-us{
@@ -152,15 +174,13 @@ section{
 	color: #fff;
 }
 
-/* .mt-80{} */
-
 .about-us-footer{
 	box-shadow: 0px -10px 15px 0px rgba(0,0,0,0.75);
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
 	    background-position: center;
-	background-image: url('footer.jpg');
+	background-image: url('footer2.jpg');
 }
 
 .about-us h2{
@@ -187,10 +207,7 @@ section{
 	        border-radius: 5px;
 	width: 80px;
 	text-align: center;
-	background: #00B4DB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	 background-image: linear-gradient(to bottom, #2274a9, #008ebe, #00a9ce, #00c3d9, #2cdddf);
 }
 
 .container-fluid{
@@ -206,14 +223,40 @@ background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, 
 	background: #FFF;
 }
 
+.carousel-example-lz{
+	height: 100%;
+}
+
+.sub-header {
+    background: rgba(0,0,0,0.3);
+    color: rgba(255,255,255,0.9);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    padding: 8px 20px;
+}
+
 .banner{
+	-webkit-box-shadow: 0px 5px 30px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 30px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 30px -10px rgba(0,0,0,0.75);
 	padding: 0;
+	position: relative;
+	z-index: 10;
+	/*height: 600px;*/
+}
+
+.banner-dev{
+	height: 600px;
+	background: url('https://picsum.photos/1920/1080');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
 }
 
 .section2{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background: #f3f3f3;
+	background: lightgrey;
 }
 
 .section-width{
@@ -228,8 +271,11 @@ section .btn{
 .section3{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	/* background: white; */
-	background: url("Header.png")
+	background: url('header.png');
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
 }
 
 .section3 .row{
@@ -242,6 +288,12 @@ section .btn{
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
+}
+
+.section3 .section-text{
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	    text-align: right;
 }
 
 .btn{
@@ -260,6 +312,11 @@ section .btn{
 
 .main-section h5{
 	margin-bottom: 30px;
+}
+
+.main-section h4{
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .main-section .row{
@@ -294,6 +351,18 @@ color: #FFF;
 footer img{
 	margin-bottom: 30px;
 	margin-top: 20px;
+}
+
+footer select{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 200px !important;
+	background: rgba(255,255,255,0.3) !important;
+	color: #FFF !important;
+}
+
+footer select option{
+	color: #000;
 }
 
 footer ul{
@@ -345,10 +414,11 @@ footer p{
 	html, body{
 		font-size: 12px;
 	}
-	.lid{
-		padding-right: 10px !important;
-	}
 
+	.navbar-brand{
+		margin-right: 0;
+	}
+	
 	.about-us-nav{
 		width: 350px;
 	}
@@ -376,7 +446,7 @@ footer p{
 		margin: 0 auto;
 	}
 
-	.section-text{
+	.section-text, .section3 .section-text{
 		margin-top: 20px;
 		text-align: center;
 		-webkit-align-items: center;
@@ -390,5 +460,14 @@ footer p{
 	.section-download .col-sm-12{
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+
+	.navbar li{
+		padding: 0;
+		text-align: center;
+	}
+
+	.nav-btn{
+		margin: 0 auto;
 	}
 }
