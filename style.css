@@ -3,6 +3,9 @@ body {
   background: white;
   font-size: 14px;
   font-family: 'Noto Sans', sans-serif;
+  overflow-x: hidden;
+
+
 }
 
 .desc{
