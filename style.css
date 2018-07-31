@@ -5,6 +5,13 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.desc{
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 30px ;
+  color: #2a2828;
+
+}
+
 .index-page .navbar,
 .index-page .banner {
   opacity: 0;
