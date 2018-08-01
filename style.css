@@ -530,7 +530,7 @@ section .btn {
 }
 
 .item-box-desc{
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .item-box-img{
@@ -541,8 +541,9 @@ section .btn {
 
 .item-box-img img{
 	width: 100px;
-	height: 80px;
-	object-fit: cover;
+height: 100px;
+object-fit: cover;
+border-radius: 100%;
 }
 
 .services-banner-text{
@@ -576,7 +577,7 @@ section .btn {
 
 .service-section-3{
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 	background: url('Artboard 9.jpg');
 	background-position: center;
 	-webkit-background-size: cover;
@@ -635,8 +636,8 @@ section .btn {
 }
 
 .row-3-img img{
-	height: 400px;
-	width: 100%;
+	height: auto;
+	width: 70%;
 	object-fit: cover;
 }
 
@@ -644,7 +645,10 @@ section .btn {
 	color: #FFF;
 	padding-top: 30px;
 	max-width: 1300px;
-	margin: 0 auto;
+  margin: 0 auto;
+  padding-left: 70px;
+
+padding-top: 100px;
 }
 
 .service-item-textbox i{
@@ -733,7 +737,7 @@ section .btn {
 }
 
 .banner-services {
-  background: url('artboard 9.jpg');
+  background: url('artboard 7.png');
   background-size: cover;
   background-position: center;
 }
