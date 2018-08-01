@@ -864,11 +864,81 @@ footer p {
   max-width: 1500px;
 }
 
-@media (max-width: 767px) {
+
+
+
+@media screen and (max-width: 400px) {
   html,
   body {
     font-size: 14px;
   }
+
+  .item-box-img2 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(65, 65, 65);
+    border-radius: 100%;
+    margin-left: 70px;
+}
+
+.item-box-img {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+}
+
+.col00{
+  padding-left: 70px !important;
+
+  padding-top: 10px !important;
+}
+
+.kk {
+
+  padding-top: 0px;
+  padding-bottom: 12px;
+
+}
+
+.service-box-img {
+  width: 100%;
+  height: 160px;
+  display: none;
+}
+
+.fas2 {
+
+  padding-left: 0px;
+  padding-top: 5px;
+  color: rgb(121, 121, 121);
+  margin-left: -125px;
+
+}
+
+.bold-uppercase2 {
+
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 15px;
+  padding-top: 5px;
+
+}
+
+.dest{
+  padding-left: 15px;
+}
+
+.service-section-3 .row-3 {
+
+  color: #FFF;
+  padding-top: 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-top: 100px;
+
+}
 
   .navbar-brand {
     margin-right: 0;
@@ -953,3 +1023,5 @@ footer p {
   	margin-bottom: 30px;
   }
 }
+
+
