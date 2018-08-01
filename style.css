@@ -929,6 +929,11 @@ footer p {
   padding-left: 15px;
 }
 
+.item-box-desc {
+  padding-top: 20px;
+  text-align: center;
+}
+
 .service-section-3 .row-3 {
 
   color: #FFF;
